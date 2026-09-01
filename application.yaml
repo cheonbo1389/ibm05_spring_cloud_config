@@ -12,7 +12,7 @@ eureka:
     # refresh:
     #   enable: false
   instance:
-    hostname: localhost
+    # hostname: localhost
     instance-id: ${spring.application.name}:${server.port}
     prefer-ip-address: true
 
